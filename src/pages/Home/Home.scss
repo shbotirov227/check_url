@@ -1,0 +1,86 @@
+$btnDefaultColor: #144EE3;
+$btnPadding: 21px 25px;
+$btnOutline: none;
+
+.Home {
+    &-top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    &-bottom {
+
+    }
+    
+    &-title {
+        font-size: 60px;
+        margin-bottom: 20px;
+        background: linear-gradient(90deg, #144EE3 -0.02%, #EB568E 18.86%, #A353AA 64.49%, #144EE3 100.67%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    &-text {
+        color: #C9CED6;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 23.5px;
+        margin-bottom: 50px;
+    }
+
+    &-search {
+        width: 45%;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+        // padding: $btnPadding;
+        border-radius: 48px;
+        border: 4px solid #353C4A;
+        background: #181E29;
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    }
+
+    svg {
+        margin: 0 20px;
+    }
+    &-input {
+        background-color: transparent;
+        height: 100%;
+        width: 80%;
+        outline: none;
+        border: none;
+        color: #C9CED6;
+        text-align: left;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px;
+
+
+        &-btn {
+            color: #FFF;
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 18px;
+            width: 25%;
+            height: 100%;
+            background-color: $btnDefaultColor;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            border-radius: 48px;
+            background: #144EE3;
+            box-shadow: 10px 9px 22px 0px rgba(20, 78, 227, 0.38);
+        }
+    }
+    
+}
